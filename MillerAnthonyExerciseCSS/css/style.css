@@ -1,0 +1,84 @@
+/* Alternative CSS Box Model | border-radius used here to impact all boxes on the page */
+
+* {
+  box-sizing: border-box;
+  border-radius: 1.88rem;
+}
+
+/* Body of the page */
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  background-color: cornflowerblue;
+  line-height: 1.6;
+  color: darkslategrey;
+}
+
+/* Page wrapper */
+#wrapper {
+  width: 98%;
+  border: 0.31rem solid midnightblue;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+/* h1 style */
+h1 {
+  font-family: fantasy, "Times New Roman", Times, serif;
+  text-align: center;
+  color: gold;
+  background-color: midnightblue;
+  width: 25rem;
+  padding: 1.8rem;
+  border: 0.5rem solid rebeccapurple;
+  margin: auto;
+  box-shadow: 0.75rem 0.75rem gray;
+  text-shadow: 0.31rem 0.31rem 0.31rem black;
+}
+
+/* h2 style */
+h2 {
+  font-family: fantasy, "Times New Roman", Times, serif;
+  text-align: center;
+  color: gold;
+  text-shadow: 0.31rem 0.31rem 0.31rem black;
+}
+
+/* h3 style */
+h3 {
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+  color: darkkhaki;
+  text-shadow: 0.31rem 0.31rem 0.31rem black;
+}
+
+/* image centering */
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0.5rem 0.5rem black;
+}
+
+/* anchor text style */
+a {
+  text-decoration: none;
+  color: burlywood;
+}
+
+/* anchor hover style */
+a:hover {
+  color: brown;
+}
+
+/* Unordered list style */
+ul {
+  list-style: circle;
+  color: aliceblue;
+}
+
+/* Ordered list style */
+ol {
+  list-style: upper-roman;
+  color: aliceblue;
+}
